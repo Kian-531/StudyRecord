@@ -1,0 +1,3 @@
+使用SparkSQL连接外置的Hive
+1.拷贝hive.site.xml文件到classpath下（复制到resources下和target/classes
+2.启用hive的支持

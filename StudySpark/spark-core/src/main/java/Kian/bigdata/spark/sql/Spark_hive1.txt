@@ -1,0 +1,5 @@
+外部连接Hive(Hive外部已经部署好)
+1.Spark需要接管Hive需要把Hive中的hive.site.xml文件拷贝到spark中conf/目录下
+2.把MySQL的驱动拷贝到spark中的jars/目录下
+3.如果访问不到hdfs，需要把Hadoop中的corn.site.xml和hdfs.site.xml文件拷贝到spark中conf/目录下
+4.重启spark-shell
